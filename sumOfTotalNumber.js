@@ -7,7 +7,7 @@ const totalSum = (...params1) =>{
     params1.forEach(eachValue => {
         total += eachValue
     })
-    return total
+    return total;
 }
 
 console.log(totalSum(2, 5, 8))
